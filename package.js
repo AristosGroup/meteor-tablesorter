@@ -3,9 +3,12 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
+
+    api.use('jquery');
+
 	api.add_files([
-		'lib/bootstrap-daterangepicker/daterangepicker.css',
-		'lib/bootstrap-daterangepicker/date.js',
-		'lib/bootstrap-daterangepicker/daterangepicker.js'
+		'lib/css/theme.bootstrap.css',
+		'lib/js/jquery.tablesorter.js',
+		'lib/js/jquery.tablesorter.widgets.js'
 		], 'client');
 });
