@@ -1,3 +1,0 @@
-[submodule "lib/tablesorter"]
-	path = lib/tablesorter
-	url = git@github.com:AristosGroup/meteor-tablesorter.git
